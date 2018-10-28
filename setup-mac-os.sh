@@ -3,7 +3,7 @@
 main() {
   # Ask for sudo credentials
   ask_for_sudo_credentials
-  # Install Hoemebrew
+  # Install Homebrew
   install_homebrew
   # Clone Dotfiles repository
   clone_dotfiles_repository
@@ -11,8 +11,6 @@ main() {
   install_packages_with_brewfile
   # Change default shell to zsh
   change_shell
-  # Configure git configuration file
-  configure_git
   # Setup symlinks for vim, git and chunkwm
   setup_symlinks
   # Setup Vim
@@ -115,22 +113,10 @@ function change_shell() {
   fi
 }
 
-function configure_git() {
-  username="Ville Harmaala"
-  email="ville.harmaala@aalto.fi"
-
-  info "Configuring git..."
-  if git config --global user.name "$username" && \
-     git config --global user.email "$email"; then
-      success "git configuration succeeded."
-  else
-    error "git configuration failed."
-  fi
-}
-
 function setup_symlinks() {
   info "Setting up symlinks..."
   symlink "vim" ${DOTFILES_REPO}/vim/vimrc ~/.vimrc
+  symlink "gitconfig" ${DOTFILES_REPO}/.gitconfig ~/.gitconfig
   symlink "gitmodules" ${DOTFILES_REPO}/.gitmodules ~/.vim/gitmodules
   symlink "gitignore" ${DOTFILES_REPO}/.gitignore_global ~/.gitignore_global
   symlink "zshrc" ${DOTFILES_REPO}/.zshrc ~/.zshrc
