@@ -117,7 +117,6 @@ function setup_symlinks() {
   info "Setting up symlinks..."
   symlink "vim" ${DOTFILES_REPO}/vim/vimrc ~/.vimrc
   symlink "gitconfig" ${DOTFILES_REPO}/.gitconfig ~/.gitconfig
-  symlink "gitmodules" ${DOTFILES_REPO}/.gitmodules ~/.vim/.gitmodules
   symlink "gitignore" ${DOTFILES_REPO}/.gitignore_global ~/.gitignore_global
   symlink "zshrc" ${DOTFILES_REPO}/.zshrc ~/.zshrc
   symlink "chunkwm" ${DOTFILES_REPO}/macOS/.chunkwmrc ~/.chunkwmrc
