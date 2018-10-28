@@ -1,0 +1,2 @@
+git clone https://github.com/challenger-deep-theme/vim ~/.vim/colors/challenger-deep-theme
+cp ~/.vim/colors/challenger-deep-theme/colors/challenger_deep.vim ~/.vim/colors/

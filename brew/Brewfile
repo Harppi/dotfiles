@@ -1,0 +1,31 @@
+##################### taps #####################
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+tap "homebrew/core"
+tap "homebrew/services"
+
+##################### brew #####################
+brew "ansible"
+brew "autojump"
+brew "chunkwm"
+brew "coreutils"
+brew "git"
+brew "koekeishiya/formulae/skhd"
+brew "packer"
+brew "python"
+brew "terraform"
+brew "tree"
+brew "vim"
+brew "wget"
+brew "zsh"
+
+##################### cask #####################
+cask "docker"
+cask "font-fira-mono"
+cask "google-chrome"
+cask "iterm2"
+cask "microsoft-office"
+cask "spotify"
+cask "vagrant"
+cask "virtualbox"
