@@ -21,7 +21,7 @@ main() {
   setup_macOS_defaults
 }
 
-DOTFILES_REPO=~/Documents/Koodit/dotfiles
+DOTFILES_REPO=~/Documents/dotfiles
 
 function ask_for_sudo_credentials() {
   info "Prompting for sudo password..."
