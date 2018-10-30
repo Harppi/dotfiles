@@ -4,7 +4,7 @@ execute pathogen#infect()
 "Enable syntax highlighting based on file names
 filetype plugin indent on
 syntax on
-colorscheme flatcolor
+colorscheme challenger_deep
 
 "Add a colored column to the right side
 set colorcolumn=90
