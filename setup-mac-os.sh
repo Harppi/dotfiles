@@ -119,7 +119,7 @@ function setup_symlinks() {
   symlink "gitconfig" ${DOTFILES_REPO}/.gitconfig ~/.gitconfig
   symlink "gitignore" ${DOTFILES_REPO}/.gitignore_global ~/.gitignore_global
   symlink "zshrc" ${DOTFILES_REPO}/.zshrc ~/.zshrc
-  symlink "chunkwm" ${DOTFILES_REPO}/macOS/.chunkwmrc ~/.chunkwmrc
+  symlink "chunkwm" ${DOTFILES_REPO}/macOS/.chunkwmrc_work ~/.chunkwmrc
   symlink "skhd" ${DOTFILES_REPO}/macOS/.skhdrc ~/.skhdrc
   success "Symlinks successfully setup."
 }
