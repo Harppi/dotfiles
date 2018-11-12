@@ -87,8 +87,9 @@ source $ZSH/oh-my-zsh.sh
 alias rs="rsync -Pahvz"
 alias setup-mac-os="cd ~/Documents/dotfiles && ./setup-mac-os.sh"
 alias update-mac-os="cd ~/Documents/dotfiles && ./update-mac-os.sh"
-alias home-tiling="cd ~/Documents/dotfiles/macOS/ && sh .chunkwmrc_home"
-alias work-tiling="cd ~/Documents/dotfiles/macOS && sh .chunkwmrc_work"
+alias home-tiling="cd ~/Documents/dotfiles/macOS/ && sh .chunkwmrc_home && cd"
+alias work-tiling="cd ~/Documents/dotfiles/macOS/ && sh .chunkwmrc_wor && cd"
+alias laptop-tiling="cd ~/Documents/dotfiles/macOS/ && sh .chunkwmrc_laptop && cd"
 
 # Autojump
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh

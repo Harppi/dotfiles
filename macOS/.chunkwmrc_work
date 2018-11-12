@@ -121,11 +121,11 @@ chunkc core::load ffm.so
 #
 
 chunkc tiling::rule --owner Finder --name Copy --state float &
-chunkc tiling::rule --owner \"Google Chrome\" --desktop 1
-chunkc tiling::rule --owner iTerm --desktop 5
-chunkc tiling::rule --owner KeePassX --desktop 6
-chunkc tiling::rule --owner Flowdock --desktop 9
-chunkc tiling::rule --owner Slack --desktop 9
-chunkc tiling::rule --owner \"Telegram Desktop\" --desktop 9
-chunkc tiling::rule --owner \"Microsoft Outlook\" --desktop 10
-chunkc tiling::rule --owner Spotify --desktop 11
+chunkc tiling::rule --owner \"Google Chrome\" --desktop 1 --follow-desktop
+chunkc tiling::rule --owner iTerm --desktop 5 --follow-desktop
+chunkc tiling::rule --owner KeePassX --desktop 6 --follow-desktop
+chunkc tiling::rule --owner Flowdock --desktop 9 --follow-desktop
+chunkc tiling::rule --owner Slack --desktop 9 --follow-desktop
+chunkc tiling::rule --owner \"Telegram Desktop\" --desktop 9 --follow-desktop
+chunkc tiling::rule --owner \"Microsoft Outlook\" --desktop 10 --follow-desktop
+chunkc tiling::rule --owner Spotify --desktop 11 --follow-desktop
