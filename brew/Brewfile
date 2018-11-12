@@ -18,6 +18,7 @@ brew "terraform"
 brew "tree"
 brew "vim"
 brew "wget"
+brew "yarn"
 brew "zsh"
 
 ##################### cask #####################
