@@ -88,7 +88,7 @@ alias rs="rsync -Pahvz"
 alias setup-mac-os="cd ~/Documents/dotfiles && ./setup-mac-os.sh"
 alias update-mac-os="cd ~/Documents/dotfiles && ./update-mac-os.sh"
 alias home-tiling="cd ~/Documents/dotfiles/macOS/ && sh .chunkwmrc_home && cd"
-alias work-tiling="cd ~/Documents/dotfiles/macOS/ && sh .chunkwmrc_wor && cd"
+alias work-tiling="cd ~/Documents/dotfiles/macOS/ && sh .chunkwmrc_work && cd"
 alias laptop-tiling="cd ~/Documents/dotfiles/macOS/ && sh .chunkwmrc_laptop && cd"
 
 # Autojump
