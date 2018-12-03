@@ -28,6 +28,9 @@ set autoindent
 "Better search
 set hlsearch
 
+"Set default encoding to UTF-8
+set encoding=utf-8
+
 "Automatic formatting of paragraphs
 au BufRead,BufNewFile *.txt setlocal textwidth=80
 au BufRead,BufNewFile *.md setlocal textwidth=80
