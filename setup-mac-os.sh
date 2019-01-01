@@ -124,6 +124,11 @@ function setup_symlinks() {
   success "Symlinks successfully setup."
 }
 
+function change_chunkwmrc() {
+  info "Changing .chunkwmrc symlink..."
+  symlink "chunkwm" ${DOTFILES_REPO}/macOS/${CHUNKWMRC} ~/.chunkwmrc
+}
+
 function symlink() {
   application=$1
   point_to=$2
@@ -279,4 +284,11 @@ function error() {
   coloredEcho "$1" red "========>"
 }
 
-main "$@"
+case "$1" in
+  change_chunkwmrc)
+    CHUNKWMRC=$2
+    change_chunkwmrc
+    ;;
+  *)
+    main "$@"
+esac
