@@ -91,7 +91,7 @@ alias home-tiling="cd ~/Documents/dotfiles/ && ./setup-mac-os.sh \
   change_chunkwmrc .chunkwmrc_home && brew services reload chunkwm && cd"
 alias work-tiling="cd ~/Documents/dotfiles/ && ./setup-mac-os.sh \
   change_chunkwmrc .chunkwmrc_work && brew services reload chunkwm && cd"
-alias laptop-tiling="cd ~/Documents/dotfiles/ && setup-mac-os.sh \
+alias laptop-tiling="cd ~/Documents/dotfiles/ && ./setup-mac-os.sh \
   change_chunkwmrc .chunkwmrc_laptop && brew services reload chunkwm && cd"
 
 # Autojump
