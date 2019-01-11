@@ -12,7 +12,7 @@ function update_os() {
 }
 
 function update_packages() {
-  brew update; brew upgrade; brew prune; brew cleanup; brew doctor;
+  brew update; brew upgrade; brew cleanup; brew doctor;
   pip3 install --upgrade pip setuptools wheel
 }
 
