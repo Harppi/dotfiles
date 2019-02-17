@@ -89,7 +89,7 @@ function pull_latest() {
 }
 
 function install_packages_with_brewfile() {
-  info "Installing packages withing ${DOTFILES_REPO}/brew/Brewfile..."
+  info "Installing packages within ${DOTFILES_REPO}/brew/Brewfile..."
   if brew bundle --file=$DOTFILES_REPO/brew/Brewfile; then
     success "Brewfile installation succeeded."
   else
@@ -288,6 +288,30 @@ case "$1" in
   change_chunkwmrc)
     CHUNKWMRC=$2
     change_chunkwmrc
+    ;;
+  install_homebrew)
+    install_homebrew
+    ;;
+  clone_dotfiles_repository)
+    clone_dotfiles_repository
+    ;;
+  install_packages_with_brewfile)
+    install_packages_with_brewfile
+    ;;
+  change_shell)
+    change_shell
+    ;;
+  setup_symlinks)
+    setup_symlinks
+    ;;
+  setup_vim)
+    setup_vim
+    ;;
+  configure_iterm2)
+    configure_iterm2
+    ;;
+  setup_macOS_defaults)
+    setup_macOS_defaults
     ;;
   *)
     main "$@"
