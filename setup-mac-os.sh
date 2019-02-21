@@ -93,7 +93,7 @@ function install_packages_with_brewfile() {
   if brew bundle --file=$DOTFILES_REPO/brew/Brewfile; then
     success "Brewfile installation succeeded."
   else
-    error "Brewfile intallation failed."
+    error "Brewfile installation failed."
     continue
   fi
 }
