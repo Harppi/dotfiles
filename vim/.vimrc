@@ -35,6 +35,9 @@ set encoding=utf-8
 au BufRead,BufNewFile *.txt setlocal textwidth=80
 au BufRead,BufNewFile *.md setlocal textwidth=80
 
+"Wrap Git commits automatically
+au Filetype gitcommit setlocal textwidth=72
+
 "Make backspace work like most other programs
 set backspace=2
 set backspace=indent,eol,start

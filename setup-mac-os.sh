@@ -115,7 +115,7 @@ function change_shell() {
 
 function setup_symlinks() {
   info "Setting up symlinks..."
-  symlink "vim" ${DOTFILES_REPO}/vim/vimrc ~/.vimrc
+  symlink "vim" ${DOTFILES_REPO}/vim/.vimrc ~/.vimrc
   symlink "gitconfig" ${DOTFILES_REPO}/.gitconfig ~/.gitconfig
   symlink "gitignore" ${DOTFILES_REPO}/.gitignore_global ~/.gitignore_global
   symlink "zshrc" ${DOTFILES_REPO}/.zshrc ~/.zshrc
