@@ -84,3 +84,7 @@ set noswapfile
 
 "Remove trailing whitespace every time a file is saved
 autocmd BufWritePre * :%s/\s\+$//e
+
+"Enter a new line after / before the current line
+nmap <S-Enter> O<Esc>
+nmap <CR> o<Esc>
