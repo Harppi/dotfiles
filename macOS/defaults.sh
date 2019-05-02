@@ -20,6 +20,8 @@ function configure_dock() {
   defaults write com.apple.dock tilesize -int 32
   # Don't animate opening applications from the Dock
   defaults write com.apple.dock launchanim -bool false
+  # Set the minimize effect
+  defaults write com.apple.dock mineffect -string scale
   # Disable Dashboard
   defaults write com.apple.dashboard mcx-disabled -bool true
   # Don't show Dashboard as a Space
@@ -28,6 +30,8 @@ function configure_dock() {
   defaults write com.apple autohide -bool true
   # Reduce the auto-hiding Dock delay
   defaults write com.apple.dock autohide-delay -float 0.01
+  # Highlight hidden apps in the Dock
+  defaults write com.apple.Dock showhidden -bool yes
 }
 
 function configure_finder() {
