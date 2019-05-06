@@ -11,6 +11,8 @@ main() {
   install_packages_with_brewfile
   # Change default shell to zsh
   change_shell
+  # Install Oh My ZSH
+  install_oh_my_zsh
   # Setup symlinks for vim, git and chunkwm
   setup_symlinks
   # Setup Vim
@@ -110,6 +112,36 @@ function change_shell() {
     else
       error "Please try setting the ZSH shell again."
     fi
+  fi
+}
+
+function install_oh_my_zsh() {
+  info "Oh my ZSH setup..."
+  substep "Installing Oh My ZSH"
+  url=https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh
+  if sh -c "$(curl -fsSL ${url})"; then
+    success "Oh My ZSH installation succeeded."
+  else
+    error "Oh My ZSH installation failed."
+    exit 1
+  fi
+  substep "Installing Oh My ZSH themes"
+  url="https://raw.githubusercontent.com/oskarkrawczyk/honukai-iterm-zsh/\
+    master/honukai.zsh-theme"
+  url=$(tr -d ' ' <<< "$url")
+  if curl -fsSL ${url} > ~/.oh-my-zsh/custom/themes/honukai.zsh-theme; then
+    success "Oh My ZSH themes installation succeeded."
+  else
+    error "Oh My ZSH themes installation failed."
+    exit 1
+  fi
+  substep "Installing Oh My ZSH plugins"
+  url=https://github.com/zsh-users/zsh-syntax-highlighting
+  if git clone "$url" ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting; then
+    success "Oh My ZSH plugins installation succeeded."
+  else
+    error "Oh My ZSH plugins installation failed."
+    exit 1
   fi
 }
 
@@ -300,6 +332,9 @@ case "$1" in
     ;;
   change_shell)
     change_shell
+    ;;
+  install_oh_my_zsh)
+    install_oh_my_zsh
     ;;
   setup_symlinks)
     setup_symlinks

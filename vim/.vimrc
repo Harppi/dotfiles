@@ -88,3 +88,9 @@ autocmd BufWritePre * :%s/\s\+$//e
 "Enter a new line after / before the current line
 nmap <S-Enter> O<Esc>
 nmap <CR> o<Esc>
+
+"Highlight Vagrantfile as ruby
+augroup vagrant
+  au!
+  au BufRead,BufNewFile Vagrantfile set filetype=ruby
+augroup END
