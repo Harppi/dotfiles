@@ -19,6 +19,10 @@ main() {
   setup_vim
   # Configure iTerm2
   configure_iterm2
+  # Install gems
+  bundle_install
+  # Configure gems
+  configure_gems
   # Setup macOS defaults
   setup_macOS_defaults
 }
@@ -239,8 +243,31 @@ function configure_iterm2() {
   if osascript -e 'tell application "iTerm" to activate'; then
     substep "iTerm2 activation successful"
   else
-  error "Failed to activate iTerm2"
+    error "Failed to activate iTerm2"
   exit 1
+  fi
+}
+
+function bundle_install() {
+  info "Installing gems within ${DOTFILES_REPO}/.bundle/Gemfile..."
+  if bundle install --gemfile=$DOTFILES_REPO/.bundle/Gemfile; then
+    success "bundle install succeeded."
+  else
+    error "bundle install failed."
+    continue
+  fi
+}
+
+function configure_gems() {
+  info "Configuring gems..."
+  substep "Configure colorls"
+  if mkdir -p ~/.config/colorls && \
+    cp ${DOTFILES_REPO}/.bundle/colorls/dark_colors.yaml \
+    ~/.config/colorls/; then
+    success "colorls configuration succeeded."
+  else
+    error "colorls configuration failed."
+    continue
   fi
 }
 
@@ -344,6 +371,12 @@ case "$1" in
     ;;
   configure_iterm2)
     configure_iterm2
+    ;;
+  bundle_install)
+    bundle_install
+    ;;
+  configure_gems)
+    configure_gems
     ;;
   setup_macOS_defaults)
     setup_macOS_defaults

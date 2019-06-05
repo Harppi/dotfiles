@@ -14,6 +14,12 @@ source $ZSH/oh-my-zsh.sh
 
 # Aliases
 alias rs="rsync -Pahvz"
+alias lc="colorls -lA --sd"
+alias l="colorls --group-directories-first --almost-all"
+alias ll="colorls --group-directories-first --almost-all --long"
+alias ls="colorls --group-directories-first"
+alias tree="colorls --tree"
+
 alias setup-mac-os="cd ~/Documents/dotfiles && ./setup-mac-os.sh"
 alias update-mac-os="cd ~/Documents/dotfiles && ./update-mac-os.sh"
 alias home-tiling="cd ~/Documents/dotfiles/ && ./setup-mac-os.sh \
