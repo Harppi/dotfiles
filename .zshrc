@@ -34,5 +34,8 @@ alias desktop-tiling="cd ~/Documents/dotfiles/ && ./setup-mac-os.sh \
 # Autojump
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
 
+# Set system locale
+export LC_ALL=en_US.UTF-8
+
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
