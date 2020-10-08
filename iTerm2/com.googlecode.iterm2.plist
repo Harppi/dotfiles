@@ -4,6 +4,8 @@
 <dict>
 	<key>AppleAntiAliasingThreshold</key>
 	<integer>1</integer>
+	<key>ApplePressAndHoldEnabled</key>
+	<false/>
 	<key>AppleScrollAnimationEnabled</key>
 	<integer>0</integer>
 	<key>AppleSmoothFixedFontsSizeThreshold</key>
@@ -363,8 +365,12 @@
 	<key>LoadPrefsFromCustomFolder</key>
 	<integer>1</integer>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/Downloads</string>
+	<string>~/Documents</string>
+	<key>NSNavLastUserSetHideExtensionButtonState</key>
+	<true/>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
+	<string>{799, 448}</string>
+	<key>NSNavPanelExpandedSizeForSaveMode</key>
 	<string>{712, 448}</string>
 	<key>NSQuotedKeystrokeBinding</key>
 	<string></string>
@@ -381,24 +387,24 @@
 	</array>
 	<key>NSTableView Columns v2 KeyBingingTable</key>
 	<data>
-	YnBsaXN0MDDUAQIDBAUGNjdYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3AS
-	AAGGoK4HCA8aGxwdHh8gJjAxMlUkbnVsbNIJCgsOWk5TLm9iamVjdHNWJGNsYXNzogwN
-	gAKACoAN0xAJChEVGVdOUy5rZXlzoxITFIADgASABaMWFxiABoAHgAiACVpJZGVudGlm
-	aWVyVVdpZHRoVkhpZGRlblEwI0BowAAAAAAACNIhIiMkWiRjbGFzc25hbWVYJGNsYXNz
-	ZXNcTlNEaWN0aW9uYXJ5oiMlWE5TT2JqZWN00xAJCicrGaMSExSAA4AEgAWjLC0YgAuA
-	DIAIgAlRMSNAdKGdsi0OVtIhIjM0Xk5TTXV0YWJsZUFycmF5ozM1JVdOU0FycmF5XxAP
-	TlNLZXllZEFyY2hpdmVy0Tg5VUFycmF5gAEACAARABoAIwAtADIANwBGAEwAUQBcAGMA
-	ZgBoAGoAbABzAHsAfwCBAIMAhQCJAIsAjQCPAJEAnACiAKkAqwC0ALUAugDFAM4A2wDe
-	AOcA7gDyAPQA9gD4APwA/gEAAQIBBAEGAQ8BFAEjAScBLwFBAUQBSgAAAAAAAAIBAAAA
+	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
+	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVVBcnJheYABrgsMEx4fICEiIyQqNDU2VSRu
+	dWxs0g0ODxJaTlMub2JqZWN0c1YkY2xhc3OiEBGAAoAKgA3TFA0OFRkdV05TLmtleXOj
+	FhcYgAOABIAFoxobHIAGgAeACIAJWklkZW50aWZpZXJVV2lkdGhWSGlkZGVuUTAjQGjA
+	AAAAAAAI0iUmJyhaJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiJylYTlNP
+	YmplY3TTFA0OKy8doxYXGIADgASABaMwMRyAC4AMgAiACVExI0BzsZ2yLQ5W0iUmNzhe
+	TlNNdXRhYmxlQXJyYXmjNzkpV05TQXJyYXkACAARABoAJAApADIANwBJAEwAUgBUAGMA
+	aQBuAHkAgACDAIUAhwCJAJAAmACcAJ4AoACiAKYAqACqAKwArgC5AL8AxgDIANEA0gDX
+	AOIA6wD4APsBBAELAQ8BEQETARUBGQEbAR0BHwEhASMBLAExAUABRAAAAAAAAAIBAAAA
 	AAAAADoAAAAAAAAAAAAAAAAAAAFM
 	</data>
 	<key>NSTableView Sort Ordering v2 KeyBingingTable</key>
 	<data>
-	YnBsaXN0MDDUAQIDBAUGFBVYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3AS
-	AAGGoKMHCA1VJG51bGzSCQoLDFpOUy5vYmplY3RzViRjbGFzc6CAAtIODxARWiRjbGFz
-	c25hbWVYJGNsYXNzZXNeTlNNdXRhYmxlQXJyYXmjEBITV05TQXJyYXlYTlNPYmplY3Rf
-	EA9OU0tleWVkQXJjaGl2ZXLRFhdVQXJyYXmAAQgRGiMtMjc7QUZRWFlbYGt0g4ePmKqt
-	swAAAAAAAAEBAAAAAAAAABgAAAAAAAAAAAAAAAAAAAC1
+	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
+	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVVBcnJheYABowsMEVUkbnVsbNINDg8QWk5T
+	Lm9iamVjdHNWJGNsYXNzoIAC0hITFBVaJGNsYXNzbmFtZVgkY2xhc3Nlc15OU011dGFi
+	bGVBcnJheaMUFhdXTlNBcnJheVhOU09iamVjdAgRGiQpMjdJTFJUWF5jbnV2eH2IkaCk
+	rAAAAAAAAAEBAAAAAAAAABgAAAAAAAAAAAAAAAAAAAC1
 	</data>
 	<key>NSTableView Supports v2 KeyBingingTable</key>
 	<true/>
@@ -409,6 +415,8 @@
 	</dict>
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>80 232 1130 534 0 0 2560 1417 </string>
+	<key>NSWindow Frame NSNavPanelAutosaveName</key>
+	<string>880 726 799 448 -1440 -609 1440 2537 </string>
 	<key>NSWindow Frame SUStatusFrame</key>
 	<string>-920 1184 400 129 -1440 -622 1440 2537 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
@@ -418,29 +426,37 @@
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>1776 1022 1016 512 1440 0 1440 2537 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 0 1920 1177 0 0 1920 1177 </string>
+	<string>1 713 1278 702 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>2 0 955 1177 0 0 1920 1177 </string>
+	<string>854 0 851 1417 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 10</key>
-	<string>1440 593 479 582 0 0 1920 1177 </string>
+	<string>2 360 697 342 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 11</key>
-	<string>1860 -21 73 57 0 0 1920 1177 </string>
+	<string>2 715 697 342 0 0 2560 1417 </string>
+	<key>NSWindow Frame iTerm Window 12</key>
+	<string>2 595 472 282 0 0 1920 1177 </string>
+	<key>NSWindow Frame iTerm Window 13</key>
+	<string>478 736 472 147 0 0 1920 1177 </string>
+	<key>NSWindow Frame iTerm Window 14</key>
+	<string>2 441 472 147 0 0 1920 1177 </string>
+	<key>NSWindow Frame iTerm Window 15</key>
+	<string>0 890 479 282 0 0 1920 1177 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>1440 1 1440 657 1440 0 1440 2537 </string>
+	<string>480 595 479 282 0 0 1920 1177 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
-	<string>2 593 955 582 0 0 1920 1177 </string>
+	<string>0 3 479 582 0 0 1920 1177 </string>
 	<key>NSWindow Frame iTerm Window 4</key>
-	<string>1082 884 115 147 0 0 1920 1177 </string>
+	<string>0 593 479 582 0 0 1920 1177 </string>
 	<key>NSWindow Frame iTerm Window 5</key>
-	<string>960 890 479 282 0 0 1920 1177 </string>
+	<string>480 890 479 282 0 0 1920 1177 </string>
 	<key>NSWindow Frame iTerm Window 6</key>
-	<string>963 890 234 282 0 0 1920 1177 </string>
+	<string>1283 713 634 702 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 7</key>
-	<string>963 884 234 147 0 0 1920 1177 </string>
+	<string>1281 0 1278 1417 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 8</key>
-	<string>2523 1433 354 147 1440 0 1440 2537 </string>
+	<string>701 708 930 709 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 9</key>
-	<string>1440 3 479 582 0 0 1920 1177 </string>
+	<string>0 0 701 709 0 0 2560 1417 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -928,9 +944,9 @@
 				<key>0xf702-0x280000</key>
 				<dict>
 					<key>Action</key>
-					<integer>11</integer>
+					<integer>10</integer>
 					<key>Text</key>
-					<string>0x1b 0x1b 0x5b 0x44</string>
+					<string>b</string>
 				</dict>
 				<key>0xf702-0x340000</key>
 				<dict>
@@ -963,9 +979,9 @@
 				<key>0xf703-0x280000</key>
 				<dict>
 					<key>Action</key>
-					<integer>11</integer>
+					<integer>10</integer>
 					<key>Text</key>
-					<string>0x1b 0x1b 0x5b 0x43</string>
+					<string>f</string>
 				</dict>
 				<key>0xf703-0x340000</key>
 				<dict>
@@ -1121,7 +1137,7 @@
 			<key>Screen</key>
 			<integer>-1</integer>
 			<key>Scrollback Lines</key>
-			<integer>1000</integer>
+			<integer>0</integer>
 			<key>Selected Text Color</key>
 			<dict>
 				<key>Alpha Component</key>
@@ -1165,7 +1181,7 @@
 			<key>Transparency</key>
 			<real>0.0</real>
 			<key>Unlimited Scrollback</key>
-			<false/>
+			<true/>
 			<key>Use Bold Font</key>
 			<false/>
 			<key>Use Bright Bold</key>
@@ -1186,24 +1202,36 @@
 	</array>
 	<key>NoSyncAllAppVersions</key>
 	<array>
+		<string>3.3.3</string>
+		<string>3.3.1</string>
+		<string>3.3.8</string>
+		<string>3.3.12</string>
+		<string>3.3.6</string>
+		<string>3.3.11</string>
+		<string>3.3.4</string>
+		<string>3.3.2</string>
+		<string>3.3.9</string>
 		<string>3.2.9</string>
 		<string>3.3.0</string>
+		<string>3.3.7</string>
 	</array>
 	<key>NoSyncFrame_SharedPreferences</key>
 	<dict>
 		<key>screenFrame</key>
-		<string>{{0, 0}, {1920, 1200}}</string>
+		<string>{{0, 0}, {2560, 1440}}</string>
 		<key>topLeft</key>
-		<string>{638, 935}</string>
+		<string>{189, 939}</string>
 	</dict>
 	<key>NoSyncHaveRequestedFullDiskAccess</key>
+	<true/>
+	<key>NoSyncHaveUsedCopyMode</key>
 	<true/>
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
 	<true/>
 	<key>NoSyncInstallationId</key>
 	<string>6B73279F-8DFE-42D0-A4A2-3CDA0F97EEC4</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>6</integer>
+	<integer>283</integer>
 	<key>NoSyncNeverAskAboutSettingAlternateMouseScroll</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
@@ -1558,6 +1586,14 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
+				<string>currentTab.currentSession.termid</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
 				<string>currentTab.currentSession.terminalWindowName</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
@@ -1638,6 +1674,14 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
+				<string>number</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
 				<string>currentTab.currentSession.hostname</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
@@ -1703,9 +1747,25 @@
 			</dict>
 			<dict>
 				<key>isTerminal</key>
+				<false/>
+				<key>name</key>
+				<string>title</string>
+				<key>nonterminalContext</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
 				<string>tmuxWindowTitle</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>title</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -1898,10 +1958,14 @@
 			</dict>
 		</array>
 	</dict>
+	<key>NoSyncSaveDocumentAsPathSet_saveDocumentAs:</key>
+	<true/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
 	<real>526456072.85564899</real>
 	<key>PMPrintingExpandedStateForPrint2</key>
 	<false/>
+	<key>PasteTabToStringTabStopSize</key>
+	<integer>4</integer>
 	<key>PointerActions</key>
 	<dict>
 		<key>Button,1,1,,</key>
@@ -1941,6 +2005,8 @@
 	<true/>
 	<key>QuitWhenAllWindowsClosed</key>
 	<true/>
+	<key>SUAutomaticallyUpdate</key>
+	<true/>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>
@@ -1950,8 +2016,10 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-08-04T10:28:44Z</date>
+	<date>2020-10-08T05:32:52Z</date>
 	<key>SUSendProfileInfo</key>
+	<false/>
+	<key>SUUpdateRelaunchingMarker</key>
 	<false/>
 	<key>SoundForEsc</key>
 	<false/>
@@ -1964,6 +2032,6 @@
 	<key>findMode_iTerm</key>
 	<integer>0</integer>
 	<key>iTerm Version</key>
-	<string>3.3.0</string>
+	<string>3.3.12</string>
 </dict>
 </plist>
