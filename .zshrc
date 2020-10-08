@@ -37,5 +37,8 @@ alias desktop-tiling="cd ~/Documents/dotfiles/ && ./setup-mac-os.sh \
 # Set system locale
 export LC_ALL=en_US.UTF-8
 
+# Homebrew's sbin
+export PATH="/usr/local/sbin:$PATH"
+
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
