@@ -25,6 +25,8 @@ main() {
   configure_gems
   # Setup macOS defaults
   setup_macOS_defaults
+  # Install Python 3 packages
+  pip3_install
 }
 
 DOTFILES_REPO=~/Documents/dotfiles
@@ -273,7 +275,6 @@ function configure_gems() {
 
 function setup_macOS_defaults() {
   info "Updating macOS defaults..."
-
   current_dir=$(pwd)
   cd ${DOTFILES_REPO}/macOS
   if bash defaults.sh; then
@@ -287,22 +288,13 @@ function setup_macOS_defaults() {
 }
 
 function pip3_install() {
-  packages_to_install=("$@")
-
-  for package_to_install in "${packages_to_install[@]}"
-  do
-    info "pip3 install ${package_to_install}"
-    if pip3 --quiet show "$package_to_install"; then
-      success "${package_to_install} already exists."
-    else
-      if pip3 install "$package_to_install"; then
-        success "Package ${package_to_install} installation succeeded."
-      else
-        error "Package ${package_to_install} installation failed."
-        exit 1
-      fi
-    fi
-  done
+  info "Installing packages within ${DOTFILES_REPO}/pip/requirements.txt..."
+  if pip3 install -r ${DOTFILES_REPO}/pip/requirements.txt; then
+    success "pip3 package installation succeeded."
+  else
+    error "pip3 package installation failed."
+    continue
+  fi
 }
 
 function coloredEcho() {
@@ -380,6 +372,9 @@ case "$1" in
     ;;
   setup_macOS_defaults)
     setup_macOS_defaults
+    ;;
+  pip3_install)
+    pip3_install
     ;;
   *)
     main "$@"
