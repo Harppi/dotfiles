@@ -1,3 +1,3 @@
 molecule
-molecule[docker]
-molecule[vagrant]
+molecule-docker
+molecule-vagrant
