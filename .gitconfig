@@ -4,6 +4,25 @@
 [core]
   excludesfile = ~/.gitignore_global
 [alias]
+  a = add
+  ap = add -p
+  b = branch
+  cm = commit
+  co = checkout
+  df = diff
+  ds = diff --staged
   lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+  p = push
+  pall = !git push && git push --tags
+  pr = pull --rebase
+  pu = !git push -u origin `git symbolic-ref --short HEAD`
+  rb = rebase
+  re = restore
+  rollback = reset --soft HEAD^
+  s = status -s
+  sh = show
+  st = status
+  sw = switch
+  unstage = reset HEAD
 [pull]
 	rebase = false
