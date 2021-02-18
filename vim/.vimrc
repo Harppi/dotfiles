@@ -95,5 +95,6 @@ augroup vagrant
   au BufRead,BufNewFile Vagrantfile set filetype=ruby
 augroup END
 
+"Handle ctrl-somekey shortcuts without toggling case
 let &t_TI = ""
 let &t_TE = ""
