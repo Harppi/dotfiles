@@ -8,6 +8,7 @@ tap "homebrew/services"
 ##################### brew #####################
 brew "ansible"
 brew "autojump"
+brew "az"
 brew "chunkwm"
 brew "coreutils"
 brew "git"
