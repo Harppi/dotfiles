@@ -46,8 +46,8 @@ function install_homebrew() {
   if hash brew 2>/dev/null; then
     success "Homebrew already exists."
   else
-    url=https://raw.githubusercontent.com/Homebrew/install/master/install
-    if /usr/bin/ruby -e "$/(curl -fsSL ${url})"; then
+    url=https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh
+    if /bin/bash -c "$/(curl -fsSL ${url})"; then
       success "Homebrew installation succeeded."
     else
       error "Homebrew installation failed."
@@ -157,8 +157,8 @@ function setup_symlinks() {
   symlink "gitconfig" ${DOTFILES_REPO}/.gitconfig ~/.gitconfig
   symlink "gitignore" ${DOTFILES_REPO}/.gitignore_global ~/.gitignore_global
   symlink "zshrc" ${DOTFILES_REPO}/.zshrc ~/.zshrc
-  symlink "chunkwm" ${DOTFILES_REPO}/macOS/.chunkwmrc_work ~/.chunkwmrc
   symlink "skhd" ${DOTFILES_REPO}/macOS/.skhdrc ~/.skhdrc
+  symlink "yabairc" ${DOTFILES_REPO}/macOS/.yabairc ~/.yabairc
   success "Symlinks successfully setup."
 }
 
