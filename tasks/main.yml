@@ -1,0 +1,28 @@
+---
+- import_tasks: brew.yml
+  tags: dotfiles_brew
+
+- import_tasks: zsh.yml
+  tags: dotfiles_zsh
+
+- import_tasks: vim.yml
+  tags: dotfiles_vim
+
+- import_tasks: iterm2.yml
+  tags: dotfiles_iterm2
+
+- import_tasks: bundle.yml
+  tags: dotfiles_bundle
+
+- import_tasks: macos.yml
+  tags: dotfiles_macos
+
+- import_tasks: pip.yml
+  tags: dotfiles_pip
+
+- import_tasks: git.yml
+  tags: dotfiles_git
+
+- import_tasks: window_manager.yml
+  tags: dotfiles_window_manager
+...

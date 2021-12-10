@@ -1,3 +1,0 @@
-molecule
-molecule-docker
-molecule-vagrant

@@ -1,4 +1,4 @@
-# Path to your oh-my-zsh installation.
+# Path to Oh My Zsh installation
 export ZSH=/Users/$(whoami)/.oh-my-zsh
 
 # Theme
@@ -18,8 +18,12 @@ alias ll="colorls --group-directories-first --almost-all --long"
 alias ls="colorls --group-directories-first"
 alias tree="colorls --tree"
 
-alias setup-mac-os="cd ~/Documents/dotfiles && ./setup-mac-os.sh"
-alias update-mac-os="cd ~/Documents/dotfiles && ./update-mac-os.sh"
+alias setup-mac-os="cd ~/Documents/dotfiles_playbook &&
+  ./prepare.sh install_dotfiles_role &&
+  ansible-playbook ~/Documents/dotfiles_playbook/setup.yml &&
+  cd"
+alias update-mac-os="/bin/bash
+  ~/Documents/dotfiles/files/scripts/update-mac-os.sh"
 
 # Autojump
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
@@ -33,5 +37,8 @@ export PATH="/usr/local/sbin:$PATH"
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 
+# Load bash completions
 autoload -U +X bashcompinit && bashcompinit
+
+# Set Terraform completion rules
 complete -o nospace -C /usr/local/bin/terraform terraform

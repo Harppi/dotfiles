@@ -1,0 +1,5 @@
+---
+install_oh_my_zsh: false
+oh_my_zsh_basepath: "/Users/{{ ansible_env.USER }}/.oh-my-zsh"
+vim_basepath: "/Users/{{ ansible_env.USER }}/.vim"
+...

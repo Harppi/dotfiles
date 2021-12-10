@@ -1,0 +1,67 @@
+---
+- name: Configure Finder
+  block:
+    - name: Require password after sleep or screen saver begins
+      command: defaults write com.apple.screensaver askForPassword -int 1
+      changed_when: false
+
+    - name: Set the number of seconds to delay before the password is required
+      command: defaults write com.apple.screensaver askForPasswordDelay -int 0
+      changed_when: false
+
+    - name: Disable window animations and Get Info animations
+      command: defaults write com.apple.finder DisableAllAnimations -bool true
+      changed_when: false
+
+    - name: When performing a search, search the current folder by default
+      command: defaults write com.apple.finder _FXDefaultSearchScope -string "SCcf"
+      changed_when: false
+
+    # Four-letter codes for the other view modes: `icnv`, `clmv`, `Flwv`
+    - name:  Use list view in all Finder windows by default
+      command: defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
+      changed_when: false
+
+
+- name: Configure Dock
+  block:
+    - name: Set the icon size of Dock items to 32 pixels
+      command: defaults write com.apple.dock tilesize -int 32
+      changed_when: false
+
+    - name: Don't animate opening applications from the Dock
+      command: defaults write com.apple.dock launchanim -bool false
+      changed_when: false
+
+    - name: Set the minimize effect
+      command: defaults write com.apple.dock mineffect -string scale
+      changed_when: false
+
+    - name: Disable Dashboard
+      command: defaults write com.apple.dashboard mcx-disabled -bool true
+      changed_when: false
+
+    - name: Don't show Dashboard as a Space
+      command: defaults write com.apple.dock dashboard-in-overlay -bool true
+      changed_when: false
+
+    - name: Automatically hide and show the Dock
+      command: defaults write com.apple autohide -bool true
+      changed_when: false
+
+    - name: Reduce the auto-hiding Dock delay
+      command: defaults write com.apple.dock autohide-delay -float 0
+      changed_when: false
+
+    - name: Reduce the autohide-time-modifier
+      command: defaults write com.apple.dock autohide-time-modifier -float 0.5
+      changed_when: false
+
+    - name: Highlight hidden apps in the Dock
+      command: defaults write com.apple.Dock showhidden -bool yes
+      changed_when: false
+
+    - name: Restart Dock
+      command: killall Dock
+      changed_when: false
+...

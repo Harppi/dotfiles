@@ -1,0 +1,59 @@
+---
+- name: Ensure Vim directories exist
+  file:
+    path: "{{ vim_basepath }}/{{ item }}"
+    state: directory
+    owner: "{{ ansible_env.USER }}"
+    group: staff
+    mode: '0755'
+  loop:
+    - autoload
+    - bundle
+
+- name: Clone Pathogen repository
+  git:
+    repo: https://github.com/tpope/vim-pathogen.git
+    dest: "{{ vim_basepath }}/autoload/vim-pathogen"
+    version: v2.4
+
+- name: Link Pathogen
+  file:
+    src: "{{ vim_basepath }}/autoload/vim-pathogen/autoload/pathogen.vim"
+    dest: "{{ vim_basepath }}/autoload/pathogen.vim"
+    state: link
+    owner: "{{ ansible_env.USER }}"
+    group: staff
+    mode: '0644'
+
+- name: Install Vim plugins
+  git:
+    repo: "{{ item.url }}"
+    dest: "{{ vim_basepath }}/bundle/{{ item.name }}"
+    version: "{{ item.version }}"
+  loop: "{{ vim_plugins }}"
+
+- name: Clone Vim color themes
+  git:
+    repo: "{{ item.url }}"
+    dest: "{{ vim_basepath }}/colors/{{ item.name }}"
+    version: "{{ item.version }}"
+  loop: "{{ vim_color_themes }}"
+
+- name: Link Vim color themes
+  file:
+    src: "{{ vim_basepath }}/colors/{{ item.name }}/colors/{{ item.name }}.vim"
+    dest: "{{ vim_basepath }}/colors/{{ item.name }}.vim"
+    state: link
+    owner: "{{ ansible_env.USER }}"
+    group: staff
+    mode: '0644'
+  loop: "{{ vim_color_themes }}"
+
+- name: Set Vim initialization commands
+  copy:
+    src: vim/.vimrc
+    dest: "{{ ansible_env.HOME }}/.vimrc"
+    owner: "{{ ansible_env.USER }}"
+    group: staff
+    mode: '0755'
+...

@@ -1,0 +1,10 @@
+- name: Configure yabai and skhd
+  copy:
+    src: "window_manager/{{ item }}"
+    dest: "{{ ansible_env.HOME }}/{{ item }}"
+    owner: "{{ ansible_env.USER }}"
+    group: staff
+    mode: '0755'
+  loop:
+    - .yabairc
+    - .skhdrc

@@ -1,0 +1,58 @@
+---
+- name: Change shell  # ZSH is the default shell of macOS
+  user:
+    name: "{{ ansible_env.USER }}"
+    shell: /bin/zsh
+
+- name: Install Oh My Zsh
+  block:
+    - name: Create temporary installation directory
+      tempfile:
+        state: directory
+        suffix: zsh_resources
+      register: zsh_resources
+      changed_when: false
+
+    - name: Download Oh My Zsh
+      get_url:
+        url: https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh
+        dest: "{{ zsh_resources.path }}"
+        owner: "{{ ansible_env.USER }}"
+        group: staff
+        mode: '0644'
+      changed_when: false
+
+    - name: Run Oh My Zsh installer
+      script: "{{ zsh_resources.path }}/install.sh"
+      changed_when: false
+
+    - name: Remove temporary installation directory
+      file:
+        path: "{{ zsh_resources.path }}"
+        state: absent
+  when: install_oh_my_zsh|bool
+
+- name: Install Oh My Zsh themes
+  get_url:
+    url: "{{ item.url }}"
+    dest: "{{ oh_my_zsh_basepath }}/custom/themes/{{ item.name }}"
+    owner: "{{ ansible_env.USER }}"
+    group: staff
+    mode: '0644'
+  loop: "{{ oh_my_zsh_themes }}"
+
+- name: Install Oh My Zsh plugins
+  git:
+    repo: "{{ item.url }}"
+    dest: "{{ oh_my_zsh_basepath }}/custom/plugins/{{ item.name }}"
+    version: "{{ item.version }}"
+  loop: "{{ oh_my_zsh_plugins }}"
+
+- name: Configure Zsh
+  copy:
+    src: zsh/.zshrc
+    dest: "{{ ansible_env.HOME }}/.zshrc"
+    owner: "{{ ansible_env.USER }}"
+    group: staff
+    mode: '0755'
+...
