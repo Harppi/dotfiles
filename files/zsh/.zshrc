@@ -22,8 +22,8 @@ alias setup-mac-os="cd ~/Documents/dotfiles_playbook &&
   ./prepare.sh install_dotfiles_role &&
   ansible-playbook ~/Documents/dotfiles_playbook/setup.yml &&
   cd"
-alias update-mac-os="/bin/bash
-  ~/Documents/dotfiles/files/scripts/update-mac-os.sh"
+alias update-mac-os="cd ~/Documents/dotfiles/files/scripts &&
+  ./update-mac-os.sh"
 
 # Autojump
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
