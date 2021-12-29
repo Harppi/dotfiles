@@ -1,5 +1,0 @@
-git clone https://github.com/itchyny/lightline.vim.git ~/.vim/bundle/lightline.vim
-git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
-git clone https://github.com/wincent/command-t.git ~/.vim/bundle/command-t
-git clone https://github.com/ervandew/supertab.git ~/.vim/bundle/supertab
-git clone https://github.com/airblade/vim-gitgutter.git ~/.vim/bundle/vim-gitgutter

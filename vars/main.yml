@@ -1,0 +1,98 @@
+---
+# Homebrew
+brew_taps:
+  - hashicorp/tap
+  - homebrew/bundle
+  - homebrew/cask
+  - homebrew/cask-fonts
+  - homebrew/core
+  - homebrew/services
+
+brew_packages:
+  - ansible
+  - autojump
+  - az
+  - coreutils
+  - flake8
+  - gh
+  - git
+  - gnu-sed
+  - hashicorp/tap
+  - hashicorp/tap/vault
+  - helm
+  - ipcalc
+  - jq
+  - koekeishiya/formulae/skhd
+  - koekeishiya/formulae/yabai
+  - nmap
+  - pv
+  - python
+  - ruby
+  - saml2aws
+  - tectonic
+  - terraform
+  - terragrunt
+  - tree
+  - vim
+  - watch
+  - yarn
+  - yq
+  - zsh
+
+brew_casks:
+  - docker
+  - firefox
+  - font-fira-mono
+  - font-hack-nerd-font
+  - google-chrome
+  - iterm2
+  - microsoft-office
+  - spotify
+  - visual-studio-code
+
+
+# Oh My Zsh
+oh_my_zsh_themes:
+  - name: honukai.zsh-theme
+    url: https://raw.githubusercontent.com/oskarkrawczyk/honukai-iterm-zsh/master/honukai.zsh-theme
+
+oh_my_zsh_plugins:
+  - name: zsh-syntax-highlighting
+    url: https://github.com/zsh-users/zsh-syntax-highlighting.git
+    version: 0.7.1
+
+
+# Vim
+vim_plugins:
+  - name: lightline.vim
+    url: https://github.com/itchyny/lightline.vim.git
+    version: master
+
+  - name: nerdtree
+    url: https://github.com/scrooloose/nerdtree.git
+    version: 6.10.16
+
+  - name: command-t
+    url: https://github.com/wincent/command-t.git
+    version: 5.0.3
+
+  - name: supertab
+    url: https://github.com/ervandew/supertab.git
+    version: 2.1
+
+  - name: vim-gitgutter
+    url: https://github.com/airblade/vim-gitgutter.git
+    version: master
+
+
+vim_color_themes:
+  - name: challenger_deep
+    url: https://github.com/challenger-deep-theme/vim.git
+    version: master
+
+
+# Pip
+pip_packages:
+  - molecule
+  - molecule-docker
+...

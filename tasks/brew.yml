@@ -1,0 +1,12 @@
+---
+- name: Install brew taps, packages and casks
+  homebrew:
+    name: "{{ item }}"
+    state: latest
+    update_homebrew: true
+    upgrade_all: true
+  loop:
+    - "{{ brew_taps }}"
+    - "{{ brew_packages }}"
+    - "{{ brew_casks }}"
+...
