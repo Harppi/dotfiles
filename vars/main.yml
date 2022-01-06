@@ -93,6 +93,7 @@ vim_color_themes:
 
 # Pip
 pip_packages:
+  - black
   - molecule
   - molecule-docker
 ...
