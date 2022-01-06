@@ -71,9 +71,6 @@ let NERDTreeIgnore=['\.DS_Store', '\~$', '\.swp']
 set wildignore+=*.log,*.sql,*.cache
 noremap <Leader>r :commandTFlush<CR>
 
-"Enable mouse support
-set mouse=a
-
 "Ignore case when searching
 set ignorecase
 
