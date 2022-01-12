@@ -347,7 +347,7 @@
 		</dict>
 	</dict>
 	<key>Default Bookmark Guid</key>
-	<string>5739658E-FC05-41F0-8338-A68368CD262E</string>
+	<string>96DFB0B1-7C7B-4D90-95AA-F11B6990DC0A</string>
 	<key>HapticFeedbackForEsc</key>
 	<false/>
 	<key>HotkeyMigratedFromSingleToMulti</key>
@@ -689,7 +689,7 @@
 				<real>0.73122179508209229</real>
 			</dict>
 			<key>Guid</key>
-			<string>5739658E-FC05-41F0-8338-A68368CD262E</string>
+			<string>96DFB0B1-7C7B-4D90-95AA-F11B6990DC0A</string>
 			<key>Horizontal Spacing</key>
 			<real>1</real>
 			<key>Idle Code</key>
@@ -703,299 +703,467 @@
 			</array>
 			<key>Keyboard Map</key>
 			<dict>
-				<key>0x2d-0x40000</key>
+				<key>0x2d-0x40000-0x0</key>
 				<dict>
 					<key>Action</key>
 					<integer>11</integer>
+					<key>Label</key>
+					<string></string>
 					<key>Text</key>
 					<string>0x1f</string>
+					<key>Version</key>
+					<integer>0</integer>
 				</dict>
-				<key>0x32-0x40000</key>
+				<key>0x32-0x40000-0x0</key>
 				<dict>
 					<key>Action</key>
 					<integer>11</integer>
+					<key>Label</key>
+					<string></string>
 					<key>Text</key>
 					<string>0x00</string>
+					<key>Version</key>
+					<integer>0</integer>
 				</dict>
-				<key>0x33-0x40000</key>
+				<key>0x33-0x40000-0x0</key>
 				<dict>
 					<key>Action</key>
 					<integer>11</integer>
+					<key>Label</key>
+					<string></string>
 					<key>Text</key>
 					<string>0x1b</string>
+					<key>Version</key>
+					<integer>0</integer>
 				</dict>
-				<key>0x34-0x40000</key>
+				<key>0x34-0x40000-0x0</key>
 				<dict>
 					<key>Action</key>
 					<integer>11</integer>
+					<key>Label</key>
+					<string></string>
 					<key>Text</key>
 					<string>0x1c</string>
+					<key>Version</key>
+					<integer>0</integer>
 				</dict>
-				<key>0x35-0x40000</key>
+				<key>0x35-0x40000-0x0</key>
 				<dict>
 					<key>Action</key>
 					<integer>11</integer>
+					<key>Label</key>
+					<string></string>
 					<key>Text</key>
 					<string>0x1d</string>
+					<key>Version</key>
+					<integer>0</integer>
 				</dict>
-				<key>0x36-0x40000</key>
+				<key>0x36-0x40000-0x0</key>
 				<dict>
 					<key>Action</key>
 					<integer>11</integer>
+					<key>Label</key>
+					<string></string>
 					<key>Text</key>
 					<string>0x1e</string>
+					<key>Version</key>
+					<integer>0</integer>
 				</dict>
-				<key>0x37-0x40000</key>
+				<key>0x37-0x40000-0x0</key>
 				<dict>
 					<key>Action</key>
 					<integer>11</integer>
+					<key>Label</key>
+					<string></string>
 					<key>Text</key>
 					<string>0x1f</string>
+					<key>Version</key>
+					<integer>0</integer>
 				</dict>
-				<key>0x38-0x40000</key>
+				<key>0x38-0x40000-0x0</key>
 				<dict>
 					<key>Action</key>
 					<integer>11</integer>
+					<key>Label</key>
+					<string></string>
 					<key>Text</key>
 					<string>0x7f</string>
+					<key>Version</key>
+					<integer>0</integer>
 				</dict>
-				<key>0xf700-0x220000</key>
+				<key>0xf700-0x220000-0x0</key>
 				<dict>
 					<key>Action</key>
 					<integer>10</integer>
+					<key>Label</key>
+					<string></string>
 					<key>Text</key>
 					<string>[1;2A</string>
+					<key>Version</key>
+					<integer>0</integer>
 				</dict>
-				<key>0xf700-0x240000</key>
+				<key>0xf700-0x240000-0x0</key>
 				<dict>
 					<key>Action</key>
 					<integer>10</integer>
+					<key>Label</key>
+					<string></string>
 					<key>Text</key>
 					<string>[1;5A</string>
+					<key>Version</key>
+					<integer>0</integer>
 				</dict>
-				<key>0xf700-0x260000</key>
+				<key>0xf700-0x260000-0x0</key>
 				<dict>
 					<key>Action</key>
 					<integer>10</integer>
+					<key>Label</key>
+					<string></string>
 					<key>Text</key>
 					<string>[1;6A</string>
+					<key>Version</key>
+					<integer>0</integer>
 				</dict>
-				<key>0xf700-0x280000</key>
+				<key>0xf700-0x280000-0x0</key>
 				<dict>
 					<key>Action</key>
 					<integer>11</integer>
+					<key>Label</key>
+					<string></string>
 					<key>Text</key>
 					<string>0x1b 0x1b 0x5b 0x41</string>
+					<key>Version</key>
+					<integer>0</integer>
 				</dict>
-				<key>0xf701-0x220000</key>
+				<key>0xf701-0x220000-0x0</key>
 				<dict>
 					<key>Action</key>
 					<integer>10</integer>
+					<key>Label</key>
+					<string></string>
 					<key>Text</key>
 					<string>[1;2B</string>
+					<key>Version</key>
+					<integer>0</integer>
 				</dict>
-				<key>0xf701-0x240000</key>
+				<key>0xf701-0x240000-0x0</key>
 				<dict>
 					<key>Action</key>
 					<integer>10</integer>
+					<key>Label</key>
+					<string></string>
 					<key>Text</key>
 					<string>[1;5B</string>
+					<key>Version</key>
+					<integer>0</integer>
 				</dict>
-				<key>0xf701-0x260000</key>
+				<key>0xf701-0x260000-0x0</key>
 				<dict>
 					<key>Action</key>
 					<integer>10</integer>
+					<key>Label</key>
+					<string></string>
 					<key>Text</key>
 					<string>[1;6B</string>
+					<key>Version</key>
+					<integer>0</integer>
 				</dict>
-				<key>0xf701-0x280000</key>
+				<key>0xf701-0x280000-0x0</key>
 				<dict>
 					<key>Action</key>
 					<integer>11</integer>
+					<key>Label</key>
+					<string></string>
 					<key>Text</key>
 					<string>0x1b 0x1b 0x5b 0x42</string>
+					<key>Version</key>
+					<integer>0</integer>
 				</dict>
-				<key>0xf702-0x220000</key>
+				<key>0xf702-0x220000-0x0</key>
 				<dict>
 					<key>Action</key>
 					<integer>10</integer>
+					<key>Label</key>
+					<string></string>
 					<key>Text</key>
 					<string>[1;2D</string>
+					<key>Version</key>
+					<integer>0</integer>
 				</dict>
-				<key>0xf702-0x240000</key>
+				<key>0xf702-0x240000-0x0</key>
 				<dict>
 					<key>Action</key>
 					<integer>10</integer>
+					<key>Label</key>
+					<string></string>
 					<key>Text</key>
 					<string>[1;5D</string>
+					<key>Version</key>
+					<integer>0</integer>
 				</dict>
-				<key>0xf702-0x260000</key>
+				<key>0xf702-0x260000-0x0</key>
 				<dict>
 					<key>Action</key>
 					<integer>10</integer>
+					<key>Label</key>
+					<string></string>
 					<key>Text</key>
 					<string>[1;6D</string>
+					<key>Version</key>
+					<integer>0</integer>
 				</dict>
-				<key>0xf702-0x280000</key>
+				<key>0xf702-0x280000-0x0</key>
 				<dict>
 					<key>Action</key>
 					<integer>10</integer>
+					<key>Label</key>
+					<string></string>
 					<key>Text</key>
 					<string>b</string>
+					<key>Version</key>
+					<integer>0</integer>
 				</dict>
-				<key>0xf702-0x340000</key>
+				<key>0xf702-0x340000-0x0</key>
 				<dict>
 					<key>Action</key>
 					<integer>11</integer>
+					<key>Label</key>
+					<string></string>
 					<key>Text</key>
 					<string>0x01</string>
+					<key>Version</key>
+					<integer>0</integer>
 				</dict>
-				<key>0xf703-0x220000</key>
+				<key>0xf703-0x220000-0x0</key>
 				<dict>
 					<key>Action</key>
 					<integer>10</integer>
+					<key>Label</key>
+					<string></string>
 					<key>Text</key>
 					<string>[1;2C</string>
+					<key>Version</key>
+					<integer>0</integer>
 				</dict>
-				<key>0xf703-0x240000</key>
+				<key>0xf703-0x240000-0x0</key>
 				<dict>
 					<key>Action</key>
 					<integer>10</integer>
+					<key>Label</key>
+					<string></string>
 					<key>Text</key>
 					<string>[1;5C</string>
+					<key>Version</key>
+					<integer>0</integer>
 				</dict>
-				<key>0xf703-0x260000</key>
+				<key>0xf703-0x260000-0x0</key>
 				<dict>
 					<key>Action</key>
 					<integer>10</integer>
+					<key>Label</key>
+					<string></string>
 					<key>Text</key>
 					<string>[1;6C</string>
+					<key>Version</key>
+					<integer>0</integer>
 				</dict>
-				<key>0xf703-0x280000</key>
+				<key>0xf703-0x280000-0x0</key>
 				<dict>
 					<key>Action</key>
 					<integer>10</integer>
+					<key>Label</key>
+					<string></string>
 					<key>Text</key>
 					<string>f</string>
+					<key>Version</key>
+					<integer>0</integer>
 				</dict>
-				<key>0xf703-0x340000</key>
+				<key>0xf703-0x340000-0x0</key>
 				<dict>
 					<key>Action</key>
 					<integer>11</integer>
+					<key>Label</key>
+					<string></string>
 					<key>Text</key>
 					<string>0x05</string>
+					<key>Version</key>
+					<integer>0</integer>
 				</dict>
-				<key>0xf704-0x20000</key>
+				<key>0xf704-0x20000-0x0</key>
 				<dict>
 					<key>Action</key>
 					<integer>10</integer>
+					<key>Label</key>
+					<string></string>
 					<key>Text</key>
 					<string>[1;2P</string>
+					<key>Version</key>
+					<integer>0</integer>
 				</dict>
-				<key>0xf705-0x20000</key>
+				<key>0xf705-0x20000-0x0</key>
 				<dict>
 					<key>Action</key>
 					<integer>10</integer>
+					<key>Label</key>
+					<string></string>
 					<key>Text</key>
 					<string>[1;2Q</string>
+					<key>Version</key>
+					<integer>0</integer>
 				</dict>
-				<key>0xf706-0x20000</key>
+				<key>0xf706-0x20000-0x0</key>
 				<dict>
 					<key>Action</key>
 					<integer>10</integer>
+					<key>Label</key>
+					<string></string>
 					<key>Text</key>
 					<string>[1;2R</string>
+					<key>Version</key>
+					<integer>0</integer>
 				</dict>
-				<key>0xf707-0x20000</key>
+				<key>0xf707-0x20000-0x0</key>
 				<dict>
 					<key>Action</key>
 					<integer>10</integer>
+					<key>Label</key>
+					<string></string>
 					<key>Text</key>
 					<string>[1;2S</string>
+					<key>Version</key>
+					<integer>0</integer>
 				</dict>
-				<key>0xf708-0x20000</key>
+				<key>0xf708-0x20000-0x0</key>
 				<dict>
 					<key>Action</key>
 					<integer>10</integer>
+					<key>Label</key>
+					<string></string>
 					<key>Text</key>
 					<string>[15;2~</string>
+					<key>Version</key>
+					<integer>0</integer>
 				</dict>
-				<key>0xf709-0x20000</key>
+				<key>0xf709-0x20000-0x0</key>
 				<dict>
 					<key>Action</key>
 					<integer>10</integer>
+					<key>Label</key>
+					<string></string>
 					<key>Text</key>
 					<string>[17;2~</string>
+					<key>Version</key>
+					<integer>0</integer>
 				</dict>
-				<key>0xf70a-0x20000</key>
+				<key>0xf70a-0x20000-0x0</key>
 				<dict>
 					<key>Action</key>
 					<integer>10</integer>
+					<key>Label</key>
+					<string></string>
 					<key>Text</key>
 					<string>[18;2~</string>
+					<key>Version</key>
+					<integer>0</integer>
 				</dict>
-				<key>0xf70b-0x20000</key>
+				<key>0xf70b-0x20000-0x0</key>
 				<dict>
 					<key>Action</key>
 					<integer>10</integer>
+					<key>Label</key>
+					<string></string>
 					<key>Text</key>
 					<string>[19;2~</string>
+					<key>Version</key>
+					<integer>0</integer>
 				</dict>
-				<key>0xf70c-0x20000</key>
+				<key>0xf70c-0x20000-0x0</key>
 				<dict>
 					<key>Action</key>
 					<integer>10</integer>
+					<key>Label</key>
+					<string></string>
 					<key>Text</key>
 					<string>[20;2~</string>
+					<key>Version</key>
+					<integer>0</integer>
 				</dict>
-				<key>0xf70d-0x20000</key>
+				<key>0xf70d-0x20000-0x0</key>
 				<dict>
 					<key>Action</key>
 					<integer>10</integer>
+					<key>Label</key>
+					<string></string>
 					<key>Text</key>
 					<string>[21;2~</string>
+					<key>Version</key>
+					<integer>0</integer>
 				</dict>
-				<key>0xf70e-0x20000</key>
+				<key>0xf70e-0x20000-0x0</key>
 				<dict>
 					<key>Action</key>
 					<integer>10</integer>
+					<key>Label</key>
+					<string></string>
 					<key>Text</key>
 					<string>[23;2~</string>
+					<key>Version</key>
+					<integer>0</integer>
 				</dict>
-				<key>0xf70f-0x20000</key>
+				<key>0xf70f-0x20000-0x0</key>
 				<dict>
 					<key>Action</key>
 					<integer>10</integer>
+					<key>Label</key>
+					<string></string>
 					<key>Text</key>
 					<string>[24;2~</string>
+					<key>Version</key>
+					<integer>0</integer>
 				</dict>
-				<key>0xf729-0x20000</key>
+				<key>0xf729-0x20000-0x0</key>
 				<dict>
 					<key>Action</key>
 					<integer>10</integer>
+					<key>Label</key>
+					<string></string>
 					<key>Text</key>
 					<string>[1;2H</string>
+					<key>Version</key>
+					<integer>0</integer>
 				</dict>
-				<key>0xf729-0x40000</key>
+				<key>0xf729-0x40000-0x0</key>
 				<dict>
 					<key>Action</key>
 					<integer>10</integer>
+					<key>Label</key>
+					<string></string>
 					<key>Text</key>
 					<string>[1;5H</string>
+					<key>Version</key>
+					<integer>0</integer>
 				</dict>
-				<key>0xf72b-0x20000</key>
+				<key>0xf72b-0x20000-0x0</key>
 				<dict>
 					<key>Action</key>
 					<integer>10</integer>
+					<key>Label</key>
+					<string></string>
 					<key>Text</key>
 					<string>[1;2F</string>
+					<key>Version</key>
+					<integer>0</integer>
 				</dict>
-				<key>0xf72b-0x40000</key>
+				<key>0xf72b-0x40000-0x0</key>
 				<dict>
 					<key>Action</key>
 					<integer>10</integer>
+					<key>Label</key>
+					<string></string>
 					<key>Text</key>
 					<string>[1;5F</string>
+					<key>Version</key>
+					<integer>0</integer>
 				</dict>
 			</dict>
 			<key>Link Color</key>
@@ -1016,7 +1184,7 @@
 			<key>Name</key>
 			<string>Default</string>
 			<key>Non Ascii Font</key>
-			<string>HackNerdFontComplete-Regular 12</string>
+			<string>Monaco 12</string>
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
@@ -1071,20 +1239,20 @@
 			<array/>
 			<key>Terminal Type</key>
 			<string>xterm-256color</string>
-			<key>Thin Strokes</key>
-			<integer>1</integer>
 			<key>Transparency</key>
 			<real>0.0</real>
+			<key>Unicode Version</key>
+			<integer>9</integer>
 			<key>Unlimited Scrollback</key>
 			<true/>
 			<key>Use Bold Font</key>
 			<false/>
 			<key>Use Bright Bold</key>
-			<false/>
+			<true/>
 			<key>Use Italic Font</key>
 			<true/>
 			<key>Use Non-ASCII Font</key>
-			<true/>
+			<false/>
 			<key>Vertical Spacing</key>
 			<real>1</real>
 			<key>Visual Bell</key>
@@ -1092,52 +1260,9 @@
 			<key>Window Type</key>
 			<integer>0</integer>
 			<key>Working Directory</key>
-			<string>/Users/harppi</string>
+			<string>/Users/Ville.Harmaala</string>
 		</dict>
 	</array>
-	<key>OpenArrangementAtStartup</key>
-	<false/>
-	<key>OpenNoWindowsAtStartup</key>
-	<false/>
-	<key>PMPrintingExpandedStateForPrint2</key>
-	<false/>
-	<key>PasteTabToStringTabStopSize</key>
-	<integer>4</integer>
-	<key>PointerActions</key>
-	<dict>
-		<key>Button,1,1,,</key>
-		<dict>
-			<key>Action</key>
-			<string>kContextMenuPointerAction</string>
-		</dict>
-		<key>Button,2,1,,</key>
-		<dict>
-			<key>Action</key>
-			<string>kPasteFromSelectionPointerAction</string>
-		</dict>
-		<key>Gesture,ThreeFingerSwipeDown,,</key>
-		<dict>
-			<key>Action</key>
-			<string>kPrevWindowPointerAction</string>
-		</dict>
-		<key>Gesture,ThreeFingerSwipeLeft,,</key>
-		<dict>
-			<key>Action</key>
-			<string>kPrevTabPointerAction</string>
-		</dict>
-		<key>Gesture,ThreeFingerSwipeRight,,</key>
-		<dict>
-			<key>Action</key>
-			<string>kNextTabPointerAction</string>
-		</dict>
-		<key>Gesture,ThreeFingerSwipeUp,,</key>
-		<dict>
-			<key>Action</key>
-			<string>kNextWindowPointerAction</string>
-		</dict>
-	</dict>
-	<key>Print In Black And White</key>
-	<true/>
 	<key>QuitWhenAllWindowsClosed</key>
 	<true/>
 	<key>SoundForEsc</key>
@@ -1146,9 +1271,5 @@
 	<integer>5</integer>
 	<key>VisualIndicatorForEsc</key>
 	<false/>
-	<key>WordCharacters</key>
-	<string>-ö</string>
-	<key>findMode_iTerm</key>
-	<integer>0</integer>
 </dict>
 </plist>
