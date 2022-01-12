@@ -26,7 +26,7 @@ alias update-mac-os="cd ~/Documents/dotfiles/files/scripts &&
   ./update-mac-os.sh"
 
 # Autojump
-[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
+[ -f /opt/homebrew/etc/profile.d/autojump.sh ] && . /opt/homebrew/etc/profile.d/autojump.sh
 
 # Set system locale
 export LC_ALL=en_US.UTF-8
