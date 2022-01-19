@@ -96,4 +96,5 @@ pip_packages:
   - black
   - molecule
   - molecule-docker
+  - pytest-testinfra
 ...
