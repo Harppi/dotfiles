@@ -1,11 +1,11 @@
 ---
-- name: Configure iTerm2
+- name: Load iTerm2 preferences from custom folder
   command: "defaults write com.googlecode.iterm2 LoadPrefsFromCustomFolder
-    -int 1 && defaults write com.googlecode.iterm2 PrefsCustomFolder
-    -string {{ role_path }}/files/iterm2"
+    -int 1"
   changed_when: false
 
-- name: Activate iTerm2
-  command: osascript -e 'tell application "iTerm" to activate"'
+- name: Define folder to load iTerm2 preferences from
+  command: "defaults write com.googlecode.iterm2 PrefsCustomFolder -string
+    {{ role_path }}/files/iterm2"
   changed_when: false
 ...
