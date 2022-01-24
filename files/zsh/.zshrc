@@ -42,3 +42,5 @@ autoload -U +X bashcompinit && bashcompinit
 
 # Set Terraform completion rules
 complete -o nospace -C /usr/local/bin/terraform terraform
+
+source $(dirname $(gem which colorls))/tab_complete.sh
