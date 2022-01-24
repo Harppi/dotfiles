@@ -17,7 +17,6 @@ brew_packages:
   - gh
   - git
   - gnu-sed
-  - hashicorp/tap
   - hashicorp/tap/vault
   - helm
   - ipcalc
