@@ -41,6 +41,6 @@ export PATH="$PATH:$HOME/.rvm/bin"
 autoload -U +X bashcompinit && bashcompinit
 
 # Set Terraform completion rules
-complete -o nospace -C /usr/local/bin/terraform terraform
+complete -o nospace -C /opt/homebrew/bin/terraform terraform
 
 source $(dirname $(gem which colorls))/tab_complete.sh
