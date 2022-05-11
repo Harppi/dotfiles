@@ -97,4 +97,5 @@ pip_packages:
   - molecule-docker
   - pynetbox
   - pytest-testinfra
+  - proxmoxer
 ...
