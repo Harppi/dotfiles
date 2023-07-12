@@ -13,11 +13,6 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 # Aliases
-alias l="colorls --group-directories-first --almost-all"
-alias ll="colorls --group-directories-first --almost-all --long"
-alias ls="colorls --group-directories-first"
-alias tree="colorls --tree"
-
 alias setup-mac-os="cd ~/Documents/dotfiles_playbook &&
   ./prepare.sh install_dotfiles_role &&
   ansible-playbook ~/Documents/dotfiles_playbook/setup.yml &&
@@ -42,5 +37,3 @@ autoload -U +X bashcompinit && bashcompinit
 
 # Set Terraform completion rules
 complete -o nospace -C /opt/homebrew/bin/terraform terraform
-
-source $(dirname $(gem which colorls))/tab_complete.sh
