@@ -18,6 +18,6 @@
     name: "{{ brew_casks }}"
     state: latest
     update_homebrew: true
-    upgrade_all: true
+    upgrade_all: "{{ upgrade_casks }}"
   tags: dotfiles_brew_casks
 ...
