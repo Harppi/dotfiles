@@ -46,6 +46,7 @@ brew_casks:
   - google-chrome
   - iterm2
   - microsoft-office
+  - qmk-toolbox
   - spotify
   - visual-studio-code
 
