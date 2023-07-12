@@ -73,7 +73,7 @@ vim_plugins:
 
   - name: command-t
     url: https://github.com/wincent/command-t.git
-    version: 5.0.3
+    version: 5.0.5
 
   - name: supertab
     url: https://github.com/ervandew/supertab.git
@@ -81,7 +81,7 @@ vim_plugins:
 
   - name: vim-gitgutter
     url: https://github.com/airblade/vim-gitgutter.git
-    version: master
+    version: main
 
 
 vim_color_themes:
