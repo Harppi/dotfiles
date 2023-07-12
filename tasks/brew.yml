@@ -16,7 +16,7 @@
 - name: Install brew casks
   homebrew_cask:
     name: "{{ brew_casks }}"
-    state: latest
+    state: present
     accept_external_apps: true
     update_homebrew: true
     upgrade_all: "{{ upgrade_casks }}"
