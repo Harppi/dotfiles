@@ -64,4 +64,15 @@
     - name: Restart Dock
       command: killall Dock
       changed_when: false
+
+
+- name: Configure Keyboard
+  block:
+    - name: Set delay until repeat
+      command: defaults write -g InitialKeyRepeat -int 15
+      changed_when: false
+
+    - name: Set key repeat rate
+      command: defaults write -g KeyRepeat -int 2
+      changed_when: false
 ...
