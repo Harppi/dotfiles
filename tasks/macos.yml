@@ -46,7 +46,7 @@
       changed_when: false
 
     - name: Automatically hide and show the Dock
-      command: defaults write com.apple autohide -bool true
+      command: defaults write com.apple.dock autohide -bool true
       changed_when: false
 
     - name: Reduce the auto-hiding Dock delay
