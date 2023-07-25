@@ -34,6 +34,7 @@ brew_packages:
   - tree
   - vim
   - watch
+  - wget
   - yarn
   - yq
   - zsh
