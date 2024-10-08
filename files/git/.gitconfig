@@ -1,6 +1,6 @@
 [user]
-  name = Ville Harmaala
-  email = ville.harmaala@relexsolutions.com
+  name = harppi
+  email = harppi@harppi.fi
 [core]
   excludesfile = ~/.gitignore_global
 [alias]
