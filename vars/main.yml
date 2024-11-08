@@ -26,6 +26,7 @@ brew_packages:
   - nmap
   - pv
   - python
+  - rancher-cli
   - ruby
   - saml2aws
   - tectonic
