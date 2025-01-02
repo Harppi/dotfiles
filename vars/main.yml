@@ -17,12 +17,14 @@ brew_packages:
   - gh
   - git
   - gnu-sed
+  - go
   - hashicorp/tap/vault
   - helm
   - ipcalc
   - jq
   - koekeishiya/formulae/skhd
   - koekeishiya/formulae/yabai
+  - krew
   - nmap
   - pv
   - python
