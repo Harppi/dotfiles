@@ -33,7 +33,6 @@ set encoding=utf-8
 
 "Automatic formatting of paragraphs
 au BufRead,BufNewFile *.txt setlocal textwidth=80
-au BufRead,BufNewFile *.md setlocal textwidth=80
 
 "Wrap Git commits automatically
 au Filetype gitcommit setlocal textwidth=72
