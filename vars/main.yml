@@ -88,6 +88,9 @@ vim_plugins:
     url: https://github.com/airblade/vim-gitgutter.git
     version: main
 
+  - name: vim-jsonnet
+    url: https://github.com/google/vim-jsonnet.git
+    version: master
 
 vim_color_themes:
   - name: challenger_deep
