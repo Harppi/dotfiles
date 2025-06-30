@@ -20,9 +20,6 @@ alias setup-mac-os="cd ~/Documents/dotfiles_playbook &&
 alias update-mac-os="cd ~/Documents/dotfiles/files/scripts &&
   ./update-mac-os.sh"
 
-# Autojump
-[ -f /opt/homebrew/etc/profile.d/autojump.sh ] && . /opt/homebrew/etc/profile.d/autojump.sh
-
 # Set system locale
 export LC_ALL=en_US.UTF-8
 

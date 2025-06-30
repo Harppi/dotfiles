@@ -10,7 +10,6 @@ brew_taps:
 
 brew_packages:
   - ansible
-  - autojump
   - az
   - coreutils
   - flake8
@@ -22,8 +21,6 @@ brew_packages:
   - helm
   - ipcalc
   - jq
-  - koekeishiya/formulae/skhd
-  - koekeishiya/formulae/yabai
   - krew
   - nmap
   - pv
@@ -47,7 +44,6 @@ brew_casks:
   - firefox
   - font-fira-mono
   - font-hack-nerd-font
-  - google-chrome
   - iterm2
   - microsoft-office
   - qmk-toolbox
