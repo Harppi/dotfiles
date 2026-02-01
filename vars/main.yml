@@ -4,7 +4,6 @@ brew_taps:
   - homebrew/cask
   - homebrew/cask-fonts
   - homebrew/core
-  - homebrew/services
 
 brew_packages:
   - ansible
@@ -26,7 +25,6 @@ brew_casks:
   - font-fira-mono
   - font-hack-nerd-font
   - iterm2
-  - qmk-toolbox
   - spotify
   - tidal
   - visual-studio-code
