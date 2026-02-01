@@ -1,8 +1,6 @@
 ---
 # Homebrew
 brew_taps:
-  - hashicorp/tap
-  - homebrew/bundle
   - homebrew/cask
   - homebrew/cask-fonts
   - homebrew/core
@@ -10,44 +8,27 @@ brew_taps:
 
 brew_packages:
   - ansible
-  - az
   - coreutils
-  - flake8
-  - gh
   - git
   - gnu-sed
-  - go
-  - hashicorp/tap/vault
-  - helm
   - ipcalc
   - jq
-  - krew
   - nmap
-  - pv
   - python
-  - rancher-cli
-  - ruby
-  - saml2aws
-  - tectonic
-  - terraform
-  - terragrunt
   - tree
   - vim
   - watch
   - wget
-  - yarn
   - yq
   - zsh
 
 brew_casks:
-  - docker
-  - firefox
   - font-fira-mono
   - font-hack-nerd-font
   - iterm2
-  - microsoft-office
   - qmk-toolbox
   - spotify
+  - tidal
   - visual-studio-code
 
 
