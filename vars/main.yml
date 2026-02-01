@@ -73,14 +73,4 @@ vim_color_themes:
   - name: challenger_deep
     url: https://github.com/challenger-deep-theme/vim.git
     version: master
-
-
-# Pip
-pip_packages:
-  - black
-  - molecule
-  - molecule-docker
-  - pynetbox
-  - pytest-testinfra
-  - proxmoxer
 ...

@@ -1,7 +1,0 @@
----
-- name: Install Pip packages
-  pip:
-    name: "{{ pip_packages }}"
-    state: latest
-    executable: pip3
-...
