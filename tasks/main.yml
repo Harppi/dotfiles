@@ -11,18 +11,9 @@
 - import_tasks: iterm2.yml
   tags: dotfiles_iterm2
 
-- import_tasks: bundle.yml
-  tags: dotfiles_bundle
-
 - import_tasks: macos.yml
   tags: dotfiles_macos
 
-- import_tasks: pip.yml
-  tags: dotfiles_pip
-
 - import_tasks: git.yml
   tags: dotfiles_git
-
-- import_tasks: window_manager.yml
-  tags: dotfiles_window_manager
 ...

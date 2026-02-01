@@ -1,6 +1,0 @@
----
-- name: Install Ruby Gems
-  bundler:
-    state: present
-    gemfile: "{{ role_path }}/files/bundle/Gemfile"
-...
